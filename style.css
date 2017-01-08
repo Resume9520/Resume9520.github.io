@@ -1,0 +1,217 @@
+
+body { 
+  background: url("images/9.jpg") repeat-x; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+    -webkit-animation: loader 16s steps(2000) infinite;
+    -moz-animation: loader 16s steps(2000) infinite;
+    -ms-animation: loader 16s steps(2000) infinite;
+    -o-animation: loader 16s steps(2000) infinite;
+    animation: loader 16s steps(2000) infinite;
+    overflow-x:hidden;
+}
+.profile-box{
+
+    height: 700px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    padding: 40px;
+}
+.row{
+    padding: 50px;
+}
+
+/**************************/
+/* Styling Social-Icon */
+
+	.social {
+  padding-top: 350px;
+        padding-right: 80px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px white;
+  background-clip: content-box;
+  padding: 5px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 50px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+ 
+  color: white;
+  margin-left: -5px;
+  transform: translateX(1px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+.social .link.github {
+  background-color:black;
+  color: white;
+}
+/* Styling Social-Icon ends here */
+/**********************************/
+
+@-webkit-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@-moz-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@-ms-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@-o-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -1600px 0;
+  }
+}
+/*******************************/
+/***********Navbar Styling********/
+
+.navbar {
+    margin-bottom: 0;
+   
+    z-index: 9999;
+    border: 0;
+    font-size: 20px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: black;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: black !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: black !important;
+}
+#navbar {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	
+	background-color:#DDDDDD;
+	color: #FFFFFF;
+	z-index:9999;
+	display: none;
+}
+/************************************/
+/*********Resume-body styling********/
+.resume-body{
+    background-color: white;
+    height: 1100px;
+      width:1000px;
+      margin:0 auto 0 auto;
+      padding:5px;
+      border:1px solid #cccccc;
+      background:#ffffff;
+  
+  
+}
+.block
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    border-bottom:1px solid #29dcb2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:40px;
+    
+}
+.block .block-header
+{
+    width:100%;
+    padding:5px 0 5px 0;
+    background-color:#29dcb2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+/*************************************/
+/*********Contact-body styling********/
+.contact-body{
+    height: 700px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    padding: 40px;
+  
+}
+/*****Styling shown calender sysmbol*******/
+
