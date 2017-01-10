@@ -1,0 +1,75 @@
+
+body { 
+  background: url("images/9.jpg") repeat-x; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+    -webkit-animation: loader 16s steps(2000) infinite;
+    -moz-animation: loader 16s steps(2000) infinite;
+    -ms-animation: loader 16s steps(2000) infinite;
+    -o-animation: loader 16s steps(2000) infinite;
+    animation: loader 16s steps(2000) infinite;
+    overflow-x:hidden;
+}
+@-webkit-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@-moz-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@-ms-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@-o-keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -160px 0;
+  }
+}
+@keyframes loader {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -1600px 0;
+  }
+}
+/*******************************/
+
+.event-body {
+    background-color: white;
+    height: 400px;
+      width:1000px;
+      margin:0 auto 0 auto;
+      padding-top:20px;
+      border:1px solid #cccccc;
+      background:#ffffff;
+      
+  
+  
+}
+.calendar-body{
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    padding: 40px;
+  
+}
