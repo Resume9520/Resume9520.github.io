@@ -176,8 +176,8 @@ body {
 /*********Resume-body styling********/
 .resume-body{
     background-color: white;
-    height: 1100px;
-      width:1000px;
+   
+     width:80%;
       margin:0 auto 0 auto;
       padding:5px;
       border:1px solid #cccccc;
@@ -194,6 +194,7 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius:40px;
+     background-color: white;
     
 }
 .block .block-header
